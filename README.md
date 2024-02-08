@@ -16,6 +16,16 @@ Dois bancos de dados, stage para tratamento e projeto financeiro para as tabelas
 Desenvolvimento de todo processamento em procedures.
 
 
+# Load CSV
+
+Você pode fazer o carregamento manual de cada csv, ou utilizar o .bach
+```sql
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CEP.csv'
+INTO TABLE cep
+FIELDS TERMINATED BY ';' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+```
 
 
 
