@@ -20,7 +20,7 @@ https://www.figma.com/file/bYS5RYf8ikfThoBvHPQgK2/Projeto_Financeiro-(Copy)?type
 - TIPO_ENDERECO
 - CONDICAO_PAGAMENTO
 
-- 
+
 # Compras sem tratamento
 Abaixo está um exemplo:
 ![imagem_2024-02-08_143855969](https://github.com/LuisFelipeRodrigo/Data_Analytics/assets/103063554/65fe5a70-6d1c-4449-a8f7-6a78a153345e)
