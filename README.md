@@ -1,8 +1,4 @@
 # Treinamento de Data Analytics
-
-
-
-
 # Escopo do Projeto
 
 Uma empresa de compra e venda de aço, toda negociação, acontece através de um site na AWS, resultando na geração de quatro arquivos CSV essenciais para o gerenciamento do  negócio:
@@ -15,6 +11,14 @@ O processo de Extração, Transformação e Carregamento(ETL) dos Dados usando o
 Dois bancos de dados, stage para tratamento e projeto financeiro para as tabelas finais.
 Desenvolvimento de todo processamento em procedures.
 
+# Planejamento
+No Figma, há uma descrição mais detalhada das fases de tratamento.
+https://www.figma.com/file/bYS5RYf8ikfThoBvHPQgK2/Projeto_Financeiro-(Copy)?type=whiteboard&node-id=0%3A1&t=QIRxvrQqN67QA4Ts-1
+# Tableas Dimensão
+- CEP
+- TIPO_DESCONTO
+- TIPO_ENDERECO
+- CONDICAO_PAGAMENTO
 
 # Load CSV
 
@@ -26,7 +30,23 @@ FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 ```
-
+# Chamada manual das procedures
+Você pode optar por chamalas manualmente ou criar um event:
+```sql
+CREATE EVENT procedures_event
+ON SCHEDULE EVERY 1 DAY
+STARTS TIMESTAMP(CURRENT_DATE + INTERVAL 1 DAY) + INTERVAL '00:30' HOUR_MINUTE
+DO
+BEGIN
+    CALL stage.SP_TRATAMENTO_CEP;
+    CALL stage.SP_TRATAMENTO_COMPRAS();
+    CALL stage.SP_TRATAMENTO_PAGAMENTOS();
+    CALL stage.SP_TRATAMENTO_VENDAS();
+    CALL stage.SP_TRATAMENTO_RECEBIMENTOS();
+    CALL stage.SP_LIMPAR_TBS_TEMP_STAGE();
+    CALL stage.SP_LIMPAR_TABELAS_STAGE();
+END;
+```
 
 
 ### TRUNCATE/DROP.sql
