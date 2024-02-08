@@ -1,0 +1,5 @@
+nome_fornecedor,cnpj_fornecedor,email_fornecedor,telefone_fornecedor,numero_nf,data_emissao,valor_net,valor_tributo,valor_total,nome_item,qtd_item,condicao_pagamento,cep,num_endereco,complemento,tipo_endereco,data_processamento
+Fornecedor G,12345678012345,info@fornecedorG.com,9968475188,078,2024-01-02,1000.0,100.0,1100.0,Produto 1,8,60 dias,23085710,800,Avenida Secundária,Entrega/Faturamento,2024-01-01
+Fornecedor ABC,19876543211234,suporte@fornecedorABC.com,996157485,079,2024-01-02,1200.0,120.0,1320.0,Produto 2,10,entrada 30 60 dias,66623401,90,Casa 50,Cobranca/Entrega,2024-01-01
+Fornecedor J,67890123452289,info@fornecedorJ.com,1122334455,080,2024-01-02,1300.0,130.0,1430.0,Produto 3,11,A vista,32044380,1100,Loja 5,cobranca/entrega,2024-01-01
+Fornecedor XYZ,67890123452177,info@fornecedorXYZ.com,996258475,081,2024-01-02,1300.0,500.0,1800.0,Produto 3,2,A vista,1144060,100,Loja 7,cobranca/entrega,2024-01-01

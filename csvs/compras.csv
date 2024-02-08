@@ -1,0 +1,34 @@
+nome_fornecedor,cnpj_fornecedor,email_fornecedor,telefone_fornecedor,numero_nf,data_emissao,valor_net,valor_tributo,valor_total,nome_item,qtd_item,condicao_pagamento,cep,num_endereco,complemento,tipo_endereco,data_processamento
+Fornecedor A,12345678901234,contato@fornecedorA.com,1122334455,001,2023-12-31,500.0,50.0,550.0,Produto 1,5,trinta dias,23085680,100,Apto 101,faturamento,2024-01-01
+Fornecedor B,98765432111876,info@fornecedorB.com,9988776655,002,2023-12-31,750.0,75.0,825.0,Produto 2,3,a vista,23085690,200,Casa 20,cobranca/entrega,2024-01-01
+Fornecedor E,12345098765432,contato@fornecedorE.com,6677889900,005,2023-12-31,800.0,80.0,880.0,Produto 5,6,entrada 30-dias,23085700,600,Avenida Secundária,EnderecoInexistente,2024-01-01
+Fornecedor G,12345678012345,info@fornecedorG.com,,007,2023-12-31,1000.0,100.0,1100.0,Produto 7,8,60 dias,23085710,800,Avenida Secundária,Entrega/Faturamento,2024-01-01
+Fornecedor I,19876543210987,suporte@fornecedorI.com,6655443322,009,2023-12-31,1200.0,120.0,1320.0,Produto 9,10,entrada 30 60 dias,32044372,1000,Casa 30,Cobranca/Entrega,2024-01-01
+Fornecedor J,67890123452289,info@fornecedorJ.com,1122334455,010,2023-12-31,1300.0,130.0,1430.0,Produto 10,11,A vista,32044380,1100,Loja 5,cobranca/entrega,2024-01-01
+Fornecedor K,12345098000432,contato@fornecedorK.com,6677889900,011,2023-12-31,1400.0,140.0,1540.0,Produto 11,12,30/60 dias,32044382,1200,Sala 10,Entrega,2024-01-01
+Fornecedor L,98765431109876,suporte@fornecedorL.com,5544332211,012,2023-12-31,1500.0,150.0,1650.0,Produto 12,13,quinze dias,32044384,1300,GalpAo 20,Cobranca/Entrega,2024-01-01
+Fornecedor M,56789012304337,info@fornecedorM.com,1122334455,013,2023-12-31,1600.0,160.0,1760.0,Produto 13,14,30 dias,32044390,1400,Rua Principal,Cobranca/Faturamento,2024-01-01
+Fornecedor N,22334455644788,contato@fornecedorN.com,9988776655,014,2023-12-31,1700.0,170.0,1870.0,Produto 14,15,a vista,32044400,1500,Casa 40,residencial,2024-01-01
+Fornecedor O,89012345118765,suporte@fornecedorO.com,6655443322,015,2023-12-31,1800.0,180.0,1980.0,Produto 15,16,30/60/90 dias,32044402,1600,Loja 10,Cobranca,2024-01-01
+Fornecedor P,67890123477789,info@fornecedorP.com,1122334455,016,2023-12-31,1900.0,190.0,2090.0,Produto 16,17,Entrada/30 dias,32044410,1700,Sala 20,Entrega/Faturamento,2024-01-01
+Fornecedor Q,12345098111432,contato@fornecedorQ.com,6677889900,017,2023-12-31,2000.0,200.0,2200.0,Produto 17,18,Entrada/30/60 dias,32044420,1800,GalpAo 30,Cobranca/Entrega,2024-01-01
+Fornecedor R,98765432177876,suporte@fornecedorR.com,5544332211,018,2023-12-31,2100.0,210.0,2310.0,Produto 18,19,trinta dias,32044492,1900,Rua Principal,Cobranca/Faturamento,2024-01-01
+Fornecedor S,56789012304887,info@fornecedorS.com,1122334455,019,2023-12-31,2200.0,220.0,2420.0,Produto 19,20,A vista,77813375,2000,Casa 50,cobranca/entrega,2024-01-01
+Fornecedor T,22334455557788,contato@fornecedorT.com,9988776655,020,2023-12-31,2300.0,230.0,2530.0,Produto 20,21,45 dias,77813376,2100,Loja 15,Cobranca,2024-01-01
+Fornecedor U,89012345014765,suporte@fornecedorU.com,6655443322,021,2023-12-31,2400.0,240.0,2640.0,Produto 21,22,Entrada/30/60/90 dias,77813377,2200,Sala 30,Entrega/Faturamento,2024-01-01
+Fornecedor V,6789012345,info@fornecedorV.com,1122334455,022,2023-12-31,2500.0,250.0,2750.0,Produto 22,23,15 dias,77813378,2300,GalpAo 40,Cobranca/Entrega,2024-01-01
+Fornecedor X,12345022265432,contato@fornecedorX.com,6677889900,023,2023-12-31,2600.0,260.0,2860.0,Produto 23,24,30 dias,77813379,2400,Rua Principal,Cobranca/Faturamento,2024-01-01
+Fornecedor Y,98765432209876,suporte@fornecedorY.com,5544332211,024,2023-12-31,2700.0,270.0,2970.0,Produto 24,25,A vista,77813380,2500,Casa 60,cobranca/entrega,2024-01-01
+Fornecedor Z,56789010456774,info@fornecedorZ.com,1122334455,025,2023-12-31,2800.0,280.0,3080.0,Produto 25,26,45 dias,44094072,2600,Loja 20,Cobranca,2024-01-01
+Fornecedor AA,22334455667788,contato@fornecedorAA.com,9988776655,026,2023-12-31,2900.0,290.0,3190.0,Produto 26,27,60 dias,44094078,2700,Sala 40,Entrega/Faturamento,2024-01-01
+Fornecedor BB,89012345098765,suporte@fornecedorBB.com,6655443322,,2023-12-31,3000.0,300.0,3300.0,Produto 27,28,quinze dias,44094084,2800,GalpAo 50,Cobranca/Entrega,2024-01-01
+Fornecedor CC,67890123456789,info@fornecedorCC.com,1122334455,028,2023-12-31,3100.0,310.0,3410.0,Produto 28,29,30 dias,,2900,Rua Principal,Cobranca/Faturamento,2024-01-01
+Fornecedor DD,12345093335432,contato@fornecedorDD.com,6677889900,029,2023-12-31,3200.0,320.0,3520.0,Produto 29,30,A vista,44094092,3000,Casa 70,cobranca/entrega,2024-01-01
+Fornecedor EE,98765432104476,suporte@fornecedorEE.com,5544332211,030,2023-12-31,3300.0,330.0,3630.0,Produto 30,31,45 dias,77813376,3100,Loja 25,Cobranca,2024-01-01
+Fornecedor A,12345678901234,contato@fornecedorA.com,1122334455,001,2023-12-31,500.0,50.0,550.0,Produto 1,5,30 dias,23085680,100,Apto 101,faturamento,2024-01-01
+Fornecedor B,98765432111876,info@fornecedorB.com,9988776655,002,2023-12-31,750.0,75.0,825.0,Produto 2,3,A vista,23085690,200,Casa 20,cobranca/entrega,2024-01-01
+Fornecedor C,88789012304555,suporte@fornecedorC.com,5544332211,859,2023-12-31,600.0,60.0,660.0,Produto 3,3,15 dias,6160100,300,Sala 5,fornecedor,2024-01-01
+Fornecedor H,56789012304567,suporte@fornecedorH.com,7744332233,859,2023-12-31,700.0,70.0,770.0,Produto 4,7,60 dias,6160110,400,GalpAo 10,fornecedor,2024-01-01
+Fornecedor D,11223344556677,,9988776655,003,2023-12-31,600.0,60.0,660.0,Produto 5,5,30 dias,6160120,500,Rua Principal,cobranca/entrega,2024-01-01
+Fornecedor F,33445566778899,contato@fornecedorF.com,1122334455,005,2023-12-31,900.0,90.0,990.0,Produto 7,7,30 dias,6160126,700,Rua Principal,cobranca/entrega,2024-01-01
+Fornecedor F,33445566778899,contato@fornecedorF.com,1122334455,006,2023-12-31,1000.0,100.0,1100.0,Produto 8,8,60 dias,6160128,800,Avenida SecundAria,faturamento,2024-01-01

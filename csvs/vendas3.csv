@@ -1,0 +1,5 @@
+nome_cliente,cnpj_cliente,email_cliente,telefone_cliente,numero_nf,data_emissao,valor_net,valor_tributo,valor_total,nome_item,qtd_item,condicao_pagamento,cep,num_endereco,complemento,tipo_endereco,data_processamento
+Empresa J,67890123456789,info@empresaJ.com,1122334455,058,2024-01-02,1300.0,250.0,1550.0,Produto 5,11,A vista,32044380,1100,Loja 5,entrega,2024-01-01
+Empresa ABC,12345098711234,contato@empresaABC.com,996158289,059,2024-01-02,1400.0,200.0,1600.0,Produto 3,12,60 dias,1140001,1500,Sala 15,Entrega,2024-01-01
+Empresa M,56789012304567,info@empresaM.com,1122334455,060,2024-01-02,1600.0,160.0,1760.0,Produto 2,14,trinta dias,32044390,1400,Rua Principal,Cobranca/Faturamento,2024-01-01
+Empresa XYZ,56789012385962,info@empresaXYZ.com,996587485,061,2024-01-02,1000.0,300.0,1300.0,Produto 5,14,trinta dias,1205000,1400,Rua Rui Barbosa,Cobranca/Faturamento,2024-01-01

@@ -1,0 +1,9 @@
+id_tipo_endereco,descricao,sigla
+1,cobranca,COB
+2,entrega,ENT
+3,faturamento,FAT
+4,cobranca/entrega,COB/ENT
+5,cobranca/faturamento,COB/FAT
+6,entrega/faturamento,ENT/FAT
+7,cobranca/entrega/faturamento,COB/ENT/FAT
+8,fornecedor,FORN

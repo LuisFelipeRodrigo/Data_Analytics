@@ -1,0 +1,4 @@
+id_nf_entrada, data_vencimento, data_pgt_efetuado, valor_parcela_pago
+20,2024-01-01,2024-01-01,1430.00
+21,2024-02-01,2024-02-01,550.00
+22,2024-01-01,2024-01-01,440.00
