@@ -19,8 +19,38 @@ Desenvolvimento de todo processamento em procedures.
 
 
 
-### import.sql
-
+### TRUNCATE/DROP.sql
+Caso esteja usando MYSQL, ao truncar as tabelas reinicie a conexão com o banco.
 ```sql
+SET foreign_key_checks = 0;
+truncate table projeto_financeiro.cep;
+truncate table projeto_financeiro.clientes;
+truncate table projeto_financeiro.condicao_pagamento;
+truncate table projeto_financeiro.enderecos_clientes;
+truncate table projeto_financeiro.enderecos_fornecedores;
+truncate table projeto_financeiro.fornecedores;
+truncate table projeto_financeiro.historico_pagamento;
+truncate table projeto_financeiro.historico_recebimento;
+truncate table projeto_financeiro.historico_recebimento_divergente;
+truncate table projeto_financeiro.notas_fiscais_entrada_;
+truncate table projeto_financeiro.notas_fiscais_saida;
+truncate table projeto_financeiro.programacao_pagamento;
+truncate table projeto_financeiro.programacao_recebimento;
+truncate table projeto_financeiro.tipo_desconto;
+truncate table projeto_financeiro.tipo_endereco;
+SET foreign_key_checks = 1;
 
+TRUNCATE TABLE stage.cep;
+TRUNCATE TABLE stage.compras;
+TRUNCATE TABLE stage.compras_rejeitadas;
+TRUNCATE TABLE stage.pagamentos;
+TRUNCATE TABLE stage.pagamentos_rejeitadas;
+TRUNCATE TABLE stage.recebimento_rejeitados;
+TRUNCATE TABLE stage.recebimentos;
+TRUNCATE table stage.tipo_desconto;
+TRUNCATE table stage.tipo_endereco;
+TRUNCATE table stage.validacao_compras;
+TRUNCATE table stage.validacao_vendas;
+TRUNCATE TABLE stage.vendas;
+TRUNCATE TABLE stage.vendas_rejeitadas;
 ```
