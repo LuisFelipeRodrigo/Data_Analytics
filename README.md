@@ -19,9 +19,16 @@ https://www.figma.com/file/bYS5RYf8ikfThoBvHPQgK2/Projeto_Financeiro-(Copy)?type
 - TIPO_DESCONTO
 - TIPO_ENDERECO
 - CONDICAO_PAGAMENTO
+
+- 
 # Compras sem tratamento
 Abaixo está um exemplo:
 ![imagem_2024-02-08_143855969](https://github.com/LuisFelipeRodrigo/Data_Analytics/assets/103063554/65fe5a70-6d1c-4449-a8f7-6a78a153345e)
+
+# Compras rejeitadas
+Após o tratamento, as compras que não passaram na validação são inseridas em compras rejeitadas com a observação:
+![imagem_2024-02-08_144146104](https://github.com/LuisFelipeRodrigo/Data_Analytics/assets/103063554/98fdb913-00c2-47d4-8669-e4d9a14f21e8)
+
 
 # Load CSV
 
