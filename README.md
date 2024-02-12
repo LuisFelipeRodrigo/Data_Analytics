@@ -41,7 +41,7 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 ```
 # Chamada manual das procedures
-Você pode optar por chamalas manualmente ou criar um event:
+Você pode optar por chamar manualmente ou criar um event:
 ```sql
 CREATE EVENT procedures_event
 ON SCHEDULE EVERY 1 DAY
